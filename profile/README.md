@@ -1,5 +1,3 @@
-<img src="../assets/backend-raccoon-avatar.png" width="150" align="right" alt="Backend-енот">
-
 ```text
 ╭─────────────────── coode.inc ───────────────────╮
 │       чек → данные → понятные расходы       │
