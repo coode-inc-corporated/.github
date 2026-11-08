@@ -1,3 +1,5 @@
+<img src="../assets/backend-raccoon-avatar.png" width="150" align="right" alt="Backend raccoon mascot">
+
 ```text
 ╭─────────────────── coode.inc ───────────────────╮
 │  receipt photo → trusted data → useful insights  │
