@@ -1,20 +1,20 @@
-<img src="../assets/backend-raccoon-avatar.png" width="150" align="right" alt="Backend raccoon mascot">
+<img src="../assets/backend-raccoon-avatar.png" width="150" align="right" alt="Backend-енот">
 
 ```text
 ╭─────────────────── coode.inc ───────────────────╮
-│  receipt photo → trusted data → useful insights  │
+│       чек → данные → понятные расходы       │
 ╰────────────────────────────────────────────────╯
 ```
 
-Telegram-first platform for receipt scanning and expense intelligence.
+Создаём Telegram-платформу для распознавания чеков и умного учёта расходов.
 
 ```text
-Telegram → TG service → Core → Qwen / Mistral OCR
-                              ↓
-User confirmation ← draft ← PostgreSQL
-        ↓
-normalize → product catalog → Open Food Facts
-        ↓
+Фото → Telegram → Telegram-сервис → Core → Qwen / Mistral OCR
+                                           ↓
+Подтверждение ← проверка ← черновик ← PostgreSQL
+      ↓
+нормализация → каталог → Open Food Facts
+      ↓
 embeddings → PostgreSQL + pgvector
 ```
 
